@@ -1,0 +1,3 @@
+category: Devel
+requires: solaris10-sparc-gcc-core solaris10-sparc-gcc-g++ solaris10-sparc-gcc-fortran
+sdesc: "GCC for Solaris 10 SPARC toolchain (meta-package)"

@@ -34,8 +34,9 @@ PKG_NAMES="${PN} ${PN}-core ${PN}-g++ ${PN}-fortran"
 #
 # Then transfer the tarballs to Cygwin and unpack them into the sysroot:
 #
+# mkdir -p /usr/sparc-sun-solaris2.10/sys-root;
 # for p in SUNWarc SUNWcsl SUNWcslr SUNWhea SUNWlibm SUNWlibms SUNWlibmsr; \
-#   do tar jxf $p.tar.bz2 -C /usr/i386-pc-solaris2.10/sys-root; done
+#   do tar jxf $p.tar.bz2 -C /usr/sparc-sun-solaris2.10/sys-root; done
 
 
 # gnu-as/ld: On Solaris, GCC defaults to using Sun's assembler and linker

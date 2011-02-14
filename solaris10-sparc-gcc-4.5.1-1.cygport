@@ -1,4 +1,3 @@
-# OpenSolaris: sparc-sun-solaris2.11
 TOOLCHAIN_TARGET="sparc-sun-solaris2.10"
 ORIG_PN="gcc"
 inherit toolchain
@@ -29,8 +28,6 @@ PKG_NAMES="${PN} ${PN}-core ${PN}-g++ ${PN}-fortran"
 # host to easily create tarballs from the the corresponding package contents:
 #
 # ./pkgrip SUNWarc SUNWcsl SUNWcslr SUNWhea SUNWlibm SUNWlibms SUNWlibmsr
-#
-# (OpenSolaris: SUNWcslr and SUNWlibmsr are no longer separate pkgs)
 #
 # Then transfer the tarballs to Cygwin and unpack them into the sysroot:
 #
